@@ -1,3 +1,5 @@
+// Updated on 11/13/24
+
 function onOpen() {
   const ui = SpreadsheetApp.getUi();
   ui.createMenu("Custom Function").addItem("Update the Spreadsheet", "updateEntireSpreadsheet").addToUi();
